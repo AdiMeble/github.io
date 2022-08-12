@@ -2,3 +2,31 @@ body
 {
     width: 100%;
 }
+
+a.ig
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-flex;
+}
+
+a.tel
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+
+h1.tel:hover {
+    text-decoration: underline;
+}
+
+h1.tel
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-flex;
+    text-decoration: none;
+}
