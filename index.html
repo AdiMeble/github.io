@@ -24,6 +24,33 @@
         <p><b>ZAPRASZAMY WKRÓTCE</b></p>
 
         <br>
+        
+        <div style="max-width: 500px;">
+            <img class="mySlides" src="kuch_wwa.jpg" style="width: 100%">
+            <img class="mySlides" src="kuch_poz.jpg" style="width: 100%">
+            <img class="mySlides" src="kuch_3.jpg" style="width: 100%">
+            <img class="mySlides" src="kuch_4.jpg" style="width: 100%">
+            <img class="mySlides" src="biurko.jpg" style="width: 100%">
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 3000); // czas zmiany zdjęcia (1000 = 1 sekunda)
+            }
+        </script>
+        
+        <br>
 
         <h1>Kontakt:</h1>
         <a href="https://www.instagram.com/adi_meble/" target="_blank" class="ig">
