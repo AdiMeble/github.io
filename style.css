@@ -3,6 +3,11 @@ body
     width: 100%;
 }
 
+.mySlides
+{
+    display: none;
+}
+
 a.ig
 {
     margin-left: 15px;
