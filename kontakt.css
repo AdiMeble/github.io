@@ -1,0 +1,210 @@
+body
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.title
+{
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 200px;
+    padding-left: 5%;
+    font-weight: bold;
+}
+p.first
+{
+    font-size: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img.phone
+{
+    height: 60px;
+    padding-left: 5%;
+}
+
+a.tel-number
+{
+    text-decoration: none;
+    /*color: #1d1c1c;*/
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* wyrównanie */
+    padding-left: 1em;
+}
+@media screen and (max-width: 550px)
+{
+    a.tel-number
+    {
+        font-size: 25px;
+    }
+}
+
+a.tel-number:hover
+{
+    color: #ffb32d;
+}
+
+img.mail
+{
+    height: 52px;
+    padding-left: 5%;
+}
+
+a.mail
+{
+    text-decoration: none;
+    /*color: #1d1c1c;*/
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 0.6em;
+}
+@media screen and (max-width: 550px)
+{
+    a.mail
+    {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 460px)
+{
+    a.mail
+    {
+        font-size: 20px;
+    }
+}
+
+a.mail:hover
+{
+    color: #ffb32d;
+}
+
+img.insta
+{
+    height: 60px;
+    padding-left: 5.2%;
+}
+
+a.insta
+{
+    text-decoration: none;
+    /*color: #1d1c1c;*/
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 1em;
+}
+@media screen and (max-width: 550px)
+{
+    a.insta
+    {
+        font-size: 25px;
+    }
+}
+
+a.insta:hover
+{
+    color: #ffb32d;
+}
+
+p.address
+{
+    padding-top: 40px;
+    padding-left: 5%;
+    font-size: 30px;
+}
+
+.maps
+{
+    border: 0;
+    float: right; 
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 1700px)
+{
+    .maps
+    {
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 1550px)
+{
+    .maps
+    {
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 1550px)
+{
+    .maps
+    {
+        width: 450px;
+        height: 350px;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 1550px)
+{
+    .maps
+    {
+        width: 450px;
+        height: 350px;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 1030px)
+{
+    .maps
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 1029px)
+{
+    .maps1
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 1028px)
+{
+    .maps1
+    {
+        margin-left: 10%;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 630px)
+{
+    .maps1
+    {
+        margin-left: 5%;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .maps1
+    {
+        margin-left: 5%;
+        margin-right: auto;
+        width: 400px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 460px)
+{
+    .maps1
+    {
+        margin-left: 5%;
+        margin-right: auto;
+        width: 320px;
+        height: 200px;
+    }
+}
