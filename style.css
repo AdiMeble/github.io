@@ -297,6 +297,15 @@ span.material-symbols-rounded1
     }
 }
 
+@media screen and (max-width: 480px)
+{
+    img.mySlides
+    {
+        margin: auto;
+        max-width: 380px; 
+    }
+}
+
 @media screen and (min-width: 1260px)
 {
     div.slides
