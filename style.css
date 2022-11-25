@@ -210,6 +210,20 @@ h1.title
     font-family: 'Roboto Mono', monospace;
 }
 /* h1.title na mniejsze ekrany (media screen) */
+@media screen and (max-width: 1024px)
+{
+    h1.title
+    {
+        font-size: 60px;
+        margin-right: 2000px;
+        margin-left: 100px;
+        padding-top: 200px;
+        margin-bottom: 410px;
+        text-align: center;
+        display: flex;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
 /* najpeirw przetestować na githubie */
 
 .mySlides
