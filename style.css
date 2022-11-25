@@ -214,9 +214,39 @@ h1.title
 {
     h1.title
     {
-        font-size: 60px;
+        font-size: 70px;
         margin-right: 2000px;
         margin-left: 100px;
+        padding-top: 200px;
+        margin-bottom: 410px;
+        text-align: center;
+        display: flex;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+@media screen and (max-width: 590px)
+{
+    h1.title
+    {
+        font-size: 60px;
+        margin-right: 2000px;
+        margin-left: 70px;
+        padding-top: 200px;
+        margin-bottom: 410px;
+        text-align: center;
+        display: flex;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+@media screen and (max-width: 470px)
+{
+    h1.title
+    {
+        font-size: 60px;
+        margin-right: 2000px;
+        margin-left: 35px;
         padding-top: 200px;
         margin-bottom: 410px;
         text-align: center;
@@ -302,7 +332,7 @@ span.material-symbols-rounded1
     img.mySlides
     {
         margin: auto;
-        max-width: 380px; 
+        max-width: 350px; 
     }
 }
 
