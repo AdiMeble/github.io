@@ -2,16 +2,16 @@
 function openNav()
 {
   document.getElementById("mySidenav").style.width = "100%";
-  document.getElementById("arrow-down").style.display = "none";
   document.getElementById("myBtn").style.display = "none";
+  document.getElementById("arrow-down").style.display = "none";
 }
   
 /* Close/hide the sidenav */
 function closeNav()
 {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("arrow-down").style.display = "";
   document.getElementById("myBtn").style.display = "";
+  document.getElementById("arrow-down").style.display = "";
 }
 
 // Get the button
