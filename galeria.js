@@ -1,8 +1,10 @@
 /* dodać 1 za każdym slajdem */
-let slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+let slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 /* dodać mySlides za każdym slajdem */
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides7", "mySlides8", "mySlides9", "mySlides11", "mySlides14", "mySlides17", "mySlides18", "mySlides19", "mySlides20", "mySlides22", "mySlides23", "mySlides24"]
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides7", "mySlides8", "mySlides9", "mySlides11", "mySlides14", "mySlides17", "mySlides18", "mySlides19", "mySlides20", "mySlides22", "mySlides23", "mySlides24", "mySlides25", "mySlides26"]
 /* dodać showSlides za każdym slajdem */
+showSlides(1, 17);
+showSlides(1, 16);
 showSlides(1, 15);
 showSlides(1, 14);
 showSlides(1, 13);
