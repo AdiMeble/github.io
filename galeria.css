@@ -57,6 +57,7 @@ h1.galeria
     margin-top: 1%;
     font-size: 75px;
     position: relative;
+    color: whitesmoke;
 }
 
 h1.galeria::before
